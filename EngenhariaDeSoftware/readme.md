@@ -10,5 +10,5 @@ We see three critical differences between programming and software engineering: 
 
 - Como engenheiro de Software => A tomada de decisão é a habilidade mais crítica a ser desenvolvida uma vez que enfrentamos prazos imprecisos e uma escalabilidade difícil de ser mensurada.
 
-A fase de pesquisa e entendimento da aplicação é muitas vezes deixada de lado, ou não se dedica o devido tempo para realizá-la, o que acaba causando um grande impacto já em um estágio avançado do projeto.
+- A fase de pesquisa e entendimento da aplicação é muitas vezes deixada de lado, ou não se dedica o devido tempo para realizá-la, o que acaba causando um grande impacto já em um estágio avançado do projeto.
 É necessário adequar a tecnologia a o projeto e não o contrário.

@@ -1,5 +1,7 @@
 # 17/02/2023
 
+# O que é engenharia de software?
+
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
 ### trade-offs example:
@@ -20,6 +22,8 @@ We see three critical differences between programming and software engineering: 
 ## Engenharia de Software = Programação Envolvendo: Tempo, Escala e Trade-offs 
 # 23/02/2023
 
+# O que são Requisitos funcionais e não funcionais? 
+
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming  is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
  - A diferença entre programar e atuar como engenheiro de software:
@@ -34,5 +38,7 @@ Within Google, we sometimes say, “Software engineering is programming integrat
    Tenho certeza que se eu mesmo olhar o código que escrevi a 3 meses atrás vou gastar um bom tempo tentando entender como está funcionando, e caso precise incluir alguma funcionalidade no sistema, seria bem complicado.
 
 ### Requisito -> Necessidade do cliente
- - Requisito não funcional => Qualidade do software
- - Requisito funcional => 
+ - Requisito não funcional => Qualidade do software (Trade-offs: Performance, escalabilidade)
+  Os requisitos não funcionais são aqueles que mostram a qualidade do sistema, é onde temos a diferenciação de empresas graças a uma aplicação ou sistema rápido, robusto, maintenível, seguro etc... Por exemplo: os requisitos funcionais de empresas como amazon e americanas são os mesmos! o que diferencia as empresas esta na qualidade do software desenvolvido. 
+ - Requisito funcional => Tarefas do sistema ex:(reservar quarto, fazer checkin)
+ São os requisitos mais visuais, aqueles que a maioria dos clientes estão mais atentos por se tratar da interface visual, design etc.

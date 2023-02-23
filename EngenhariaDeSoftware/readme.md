@@ -17,9 +17,22 @@ We see three critical differences between programming and software engineering: 
 - A fase de pesquisa e entendimento da aplicação é muitas vezes deixada de lado, ou não se dedica o devido tempo para realizá-la, o que acaba causando um grande impacto já em um estágio avançado do projeto.
 É necessário adequar a tecnologia a o projeto e não o contrário.
 
+## Engenharia de Software = Programação Envolvendo: Tempo, Escala e Trade-offs 
 # 23/02/2023
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming  is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
  - A diferença entre programar e atuar como engenheiro de software:
-  - Podemos afirmar que as tarefas como engenharia de software são mais complexas e completas, sendo contemplados o ato de programar em si, modificar e manter um software. Enquanto a tarefa de programar(desenvolver ou escrever código) é uma tarefa solitária que contempla apenas uma parte do trabalho de um engenheiro de software. 
+  Podemos afirmar que as tarefas como engenharia de software são mais complexas e completas, sendo contemplados o ato de programar em si, modificar e manter um software. Enquanto a tarefa de programar(desenvolver ou escrever código) é uma tarefa única que contempla apenas uma parte do trabalho de um engenheiro de software. 
+ - O que é programar:
+  Programar está ligado a execução, obviamente é necessário analisar qual o tipo de entrada e os tipos de dados que iremos utilizar e qual será a saída após realizar alguma lógica. Contudo, nesse estágio já temos alguns detalhes definidos como: Linguagem a ser utilizada, framework, banco de dados, como será a saída.
+  - Engenharia de software está ligado a planejamento, conhecer os requisitos de um projeto, escolher quais ferramentas melhor se adequa para resolução do problema proposto, DESENVOLVER a aplicação em si utilizando-se de algum padrão de design(ex: clean code), realizar modificações quando algum imprevisto surgir e essas modificações podem ser de ferramentas,frameworks etc. Por fim, realizar a manutenção nesse sistema que foi planejado e desenvolvido.
+  ### Exemplo
+  - API 1° Semestre:
+   No semestre passado logo na primeira sprint 100% dos grupos entregaram a estrutura inicial dos projetos, essa estrutura continha o projeto funcional já com o framework flask, HTML e CSS;
+   Acredito que nas sprints seguintes todos sentiram a falta de um bom planejamento em relação a definição das tecnologias a serem utilizadas e de  seguir um padrão de código( clean code ), no meu grupo por exemplo lembro que na última sprint o que se gastava mais tempo era entender o código de terceiros de modo a incluir alguma feature ou realização alguma manutenção.
+   Tenho certeza que se eu mesmo olhar o código que escrevi a 3 meses atrás vou gastar um bom tempo tentando entender como está funcionando, e caso precise incluir alguma funcionalidade no sistema, seria bem complicado.
+
+### Requisito -> Necessidade do cliente
+ - Requisito não funcional => Qualidade do software
+ - Requisito funcional => 

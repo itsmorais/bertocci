@@ -5,6 +5,7 @@
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
 ### trade-offs example:
+Negociação sobre os requisitos não funcionais
 ![image](https://user-images.githubusercontent.com/53665466/219641873-bfff00ec-ab38-4840-87fb-39fa1f1bd62c.png)
 
 
@@ -37,8 +38,18 @@ Within Google, we sometimes say, “Software engineering is programming integrat
    Acredito que nas sprints seguintes todos sentiram a falta de um bom planejamento em relação a definição das tecnologias a serem utilizadas e de  seguir um padrão de código( clean code ), no meu grupo por exemplo lembro que na última sprint o que se gastava mais tempo era entender o código de terceiros de modo a incluir alguma feature ou realização alguma manutenção.
    Tenho certeza que se eu mesmo olhar o código que escrevi a 3 meses atrás vou gastar um bom tempo tentando entender como está funcionando, e caso precise incluir alguma funcionalidade no sistema, seria bem complicado.
 
-### Requisito -> Necessidade do cliente
+### Requisito == Necessidade do cliente(expressos como adjetivos: performance,usabilidade,segurança)
  - Requisito não funcional => Qualidade do software (Trade-offs: Performance, escalabilidade)
   Os requisitos não funcionais são aqueles que mostram a qualidade do sistema, é onde temos a diferenciação de empresas graças a uma aplicação ou sistema rápido, robusto, maintenível, seguro etc... Por exemplo: os requisitos funcionais de empresas como amazon e americanas são os mesmos! o que diferencia as empresas esta na qualidade do software desenvolvido. 
- - Requisito funcional => Tarefas do sistema ex:(reservar quarto, fazer checkin)
+  
+ - Requisito funcional => Tarefas do sistema(expressos como verbo funcionalidades do sistema) ex:(reservar quarto, fazer checkin)
  São os requisitos mais visuais, aqueles que a maioria dos clientes estão mais atentos por se tratar da interface visual, design etc.
+ 
+# Desafio 24/02/2023
+2 Exemplos de trade-offs envolvendo requisitos não funcionais:
+
+Estágio => Escolha de ORM que fosse integrado ao NEXT.js e que pudesse ser utilizado diretamente no front-end, contudo esse ORM não suportava tipos 'geometry' e após uma semana atuando em uma feature é que percebemos esse problema. Este fato resultou em alguns dias perdidos para refatorar a aplicação, buscar outra alternativa e nos certificar que esse alternativa era válida para o que necessitavamos no momento.
+
+API => Na escolha do banco de dados partimos para o MYSQL por ter mais recurso de aprendizado como: vídeos, documentação bem escrita, cursos etc.
+Porém tivemos algumas dificuldades de inicio para conectar o banco a aplicação e lendo a documentação do framework flask( que era um requisito do projeto) percebemos que ele continha um integração com o banco sqlite3 onde a configuração era super simples, e o único ponto de atenção da própria ferramenta era em relação a escalabilidade, então migramos para o sqlite3 e conseguimos realizar toda a implementação do banco em 1 semana.
+ 

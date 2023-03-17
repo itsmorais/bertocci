@@ -53,3 +53,9 @@ Estágio => Escolha de ORM que fosse integrado ao NEXT.js e que pudesse ser util
 API => Na escolha do banco de dados partimos para o MYSQL por ter mais recurso de aprendizado como: vídeos, documentação bem escrita, cursos etc.
 Porém tivemos algumas dificuldades de inicio para conectar o banco a aplicação e lendo a documentação do framework flask( que era um requisito do projeto) percebemos que ele continha um integração com o banco sqlite3 onde a configuração era super simples, e o único ponto de atenção da própria ferramenta era em relação a escalabilidade, então migramos para o sqlite3 e conseguimos realizar toda a implementação do banco em 1 semana.
  
+ # Diagrama de classes UML 17/03/2022
+ ![image](https://user-images.githubusercontent.com/53665466/225961742-3475d2c5-e8e8-4b74-8105-dcf825de6793.png)
+ ![image](https://user-images.githubusercontent.com/53665466/225961914-e7a010fb-f773-464f-8081-07df848427ab.png)
+
+ 
+

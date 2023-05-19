@@ -60,5 +60,6 @@ Porém tivemos algumas dificuldades de inicio para conectar o banco a aplicaçã
  ## Atividade Diagrama UML + código em JAVA
  ### Diagrama de classes UML
  ![image](https://github.com/itsmorais/bertoti/assets/53665466/ab768c60-4159-4073-80f9-2ef26dc58890)
-
+### Código JAVA
+[BertotiJAVA](https://github.com/itsmorais/bertoti/tree/main/EngenhariaDeSoftware/bertotiUML/src)
 

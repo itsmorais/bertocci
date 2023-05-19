@@ -57,5 +57,8 @@ Porém tivemos algumas dificuldades de inicio para conectar o banco a aplicaçã
  ![image](https://user-images.githubusercontent.com/53665466/225961742-3475d2c5-e8e8-4b74-8105-dcf825de6793.png)
  ![image](https://user-images.githubusercontent.com/53665466/225961914-e7a010fb-f773-464f-8081-07df848427ab.png)
 
- 
+ ## Atividade Diagrama UML + código em JAVA
+ ### Diagrama de classes UML
+ ![image](https://github.com/itsmorais/bertoti/assets/53665466/ab768c60-4159-4073-80f9-2ef26dc58890)
+
 
